@@ -1,0 +1,68 @@
+# Reading F:/altera/12.0/modelsim_ase/tcl/vsim/pref.tcl 
+# do Multiple_Cycles_CPU_run_msim_gate_verilog.do 
+# if {[file exists gate_work]} {
+# 	vdel -lib gate_work -all
+# }
+# vlib gate_work
+# vmap work gate_work
+# Copying F:\altera\12.0\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied F:\altera\12.0\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+. {Multiple_Cycles_CPU_fast.vo}
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module Multiple_Cycles_CPU
+# 
+# Top level modules:
+# 	Multiple_Cycles_CPU
+# 
+# vlog -vlog01compat -work work +incdir+F:/altera/Multiple_Cycles_CPU/simulation/modelsim {F:/altera/Multiple_Cycles_CPU/simulation/modelsim/Multiple_Cycles_CPU.vt}
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module Multiple_Cycles_CPU_vlg_tst
+# 
+# Top level modules:
+# 	Multiple_Cycles_CPU_vlg_tst
+# 
+# vsim -t 1ps +transport_int_delays +transport_path_delays -L cycloneii_ver -L gate_work -L work -voptargs="+acc"  Multiple_Cycles_CPU_vlg_tst
+# vsim +transport_int_delays +transport_path_delays -L cycloneii_ver -L gate_work -L work -voptargs=\"+acc\" -t 1ps Multiple_Cycles_CPU_vlg_tst 
+# Loading work.Multiple_Cycles_CPU_vlg_tst
+# Loading work.Multiple_Cycles_CPU
+# Loading cycloneii_ver.cycloneii_ram_block
+# Loading cycloneii_ver.cycloneii_ram_register
+# Loading cycloneii_ver.cycloneii_ram_pulse_generator
+# Loading cycloneii_ver.cycloneii_lcell_comb
+# Loading cycloneii_ver.cycloneii_lcell_ff
+# Loading cycloneii_ver.cycloneii_io
+# Loading cycloneii_ver.cycloneii_mux21
+# Loading cycloneii_ver.cycloneii_dffe
+# Loading cycloneii_ver.cycloneii_asynch_io
+# Loading cycloneii_ver.cycloneii_clkctrl
+# Loading cycloneii_ver.cycloneii_mux41
+# Loading cycloneii_ver.cycloneii_ena_reg
+# SDF 10.0d Compiler 2012.01 Jan 18 2012
+# 
+# Loading instances from Multiple_Cycles_CPU_v_fast.sdo
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by:   Hostname:   ProcessID: 1
+#           Attempting to use alternate WLF file "./wlft3v026t".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft3v026t
+# ** Warning: (vsim-3017) F:/altera/Multiple_Cycles_CPU/simulation/modelsim/Multiple_Cycles_CPU.vt(122): [TFMPC] - Too few port connections. Expected 44, found 42.
+#         Region: /Multiple_Cycles_CPU_vlg_tst/i1
+# ** Warning: (vsim-3722) F:/altera/Multiple_Cycles_CPU/simulation/modelsim/Multiple_Cycles_CPU.vt(122): [TFMPC] - Missing connection for port 'PC_write'.
+# ** Warning: (vsim-3722) F:/altera/Multiple_Cycles_CPU/simulation/modelsim/Multiple_Cycles_CPU.vt(122): [TFMPC] - Missing connection for port 'RegDt0'.
+# Loading cycloneii_ver.CYCLONEII_PRIM_DFFE
+# Loading timing data from Multiple_Cycles_CPU_v_fast.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /Multiple_Cycles_CPU_vlg_tst File: F:/altera/Multiple_Cycles_CPU/simulation/modelsim/Multiple_Cycles_CPU.vt
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# Running testbench
+# Break key hit 
+# Simulation stop requested.

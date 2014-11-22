@@ -1,0 +1,53 @@
+module MIPS_Register 
+#(parameter DataPath_Width = 32,parameter Add_Width = 5)
+(
+	input [Add_Width - 1:0] Rs_addr, Rt_addr, Rd_addr,
+	input Clk,
+	input [3:0] Rd_Byte_w_en,
+	input [DataPath_Width - 1:0] Rd_in,
+	output [DataPath_Width - 1:0] Rs_out,Rt_out
+);
+
+  reg [DataPath_Width - 1:0] Data [2**Add_Width - 1 : 0];
+
+	initial 
+	begin
+		/*Data[1] = 1;
+		Data[2] = 100;
+		Data[3] = 0;*/
+		Data[1] = 32'h11112345;
+		Data[2] = 32'h2;
+		Data[3] = 32'h3;
+		Data[4] = 32'h4;
+		Data[5] = 32'h55556789;
+		Data[8] = 32'h88;
+		Data[9] = 32'h5467_8932;
+		Data[10] = 32'h3476_8906;
+		Data[11] = 32'hfffa_bcde;
+		Data[12] = 32'h6789_3954;
+		Data[30] = 32'hffff_ffff;
+		Data[31] = 32'h7fff_ffff;
+	end
+	// Declare the MIPS_Registe
+	
+	initial Data[0] = 32'b0; //0# Register
+	
+	// Define the input
+	always @ (negedge Clk)
+	if(Rd_addr != 4'b0)
+		begin
+			if (Rd_Byte_w_en[0] == 1'b1)//Assume Low Voltage is Valid 
+				Data[Rd_addr][7:0] <= Rd_in[7:0]; 
+			if (Rd_Byte_w_en[1] == 1'b1) 
+				Data[Rd_addr][15:8] <= Rd_in[15:8]; 
+			if (Rd_Byte_w_en[2] == 1'b1) 
+				Data[Rd_addr][23:16] <= Rd_in[23:16]; 
+			if (Rd_Byte_w_en[3] == 1'b1) 
+				Data[Rd_addr][31:24] <= Rd_in[31:24]; 
+		end
+
+	// Define the Output
+	assign Rs_out = Data[Rs_addr];
+	assign Rt_out = Data[Rt_addr];
+	
+endmodule

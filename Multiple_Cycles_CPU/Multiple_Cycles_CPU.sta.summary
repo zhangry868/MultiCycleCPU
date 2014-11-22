@@ -1,0 +1,77 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow Model Setup 'Clk'
+Slack : -19.734
+TNS   : -24866.442
+
+Type  : Slow Model Setup 'Controller:controller|state.S6'
+Slack : -9.065
+TNS   : -63.654
+
+Type  : Slow Model Setup 'Controller:controller|state.S0'
+Slack : -4.298
+TNS   : -4.298
+
+Type  : Slow Model Hold 'Clk'
+Slack : -2.733
+TNS   : -4.883
+
+Type  : Slow Model Hold 'Controller:controller|state.S6'
+Slack : -2.726
+TNS   : -23.927
+
+Type  : Slow Model Hold 'Controller:controller|state.S0'
+Slack : 3.003
+TNS   : 0.000
+
+Type  : Slow Model Minimum Pulse Width 'Clk'
+Slack : -1.380
+TNS   : -2440.380
+
+Type  : Slow Model Minimum Pulse Width 'Controller:controller|state.S0'
+Slack : 0.500
+TNS   : 0.000
+
+Type  : Slow Model Minimum Pulse Width 'Controller:controller|state.S6'
+Slack : 0.500
+TNS   : 0.000
+
+Type  : Fast Model Setup 'Clk'
+Slack : -8.231
+TNS   : -10532.485
+
+Type  : Fast Model Setup 'Controller:controller|state.S6'
+Slack : -3.863
+TNS   : -20.796
+
+Type  : Fast Model Setup 'Controller:controller|state.S0'
+Slack : -1.955
+TNS   : -1.955
+
+Type  : Fast Model Hold 'Clk'
+Slack : -1.710
+TNS   : -3.427
+
+Type  : Fast Model Hold 'Controller:controller|state.S6'
+Slack : -1.627
+TNS   : -15.007
+
+Type  : Fast Model Hold 'Controller:controller|state.S0'
+Slack : 1.705
+TNS   : 0.000
+
+Type  : Fast Model Minimum Pulse Width 'Clk'
+Slack : -1.380
+TNS   : -2440.380
+
+Type  : Fast Model Minimum Pulse Width 'Controller:controller|state.S0'
+Slack : 0.500
+TNS   : 0.000
+
+Type  : Fast Model Minimum Pulse Width 'Controller:controller|state.S6'
+Slack : 0.500
+TNS   : 0.000
+
+------------------------------------------------------------

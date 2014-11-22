@@ -1,0 +1,16 @@
+Fitter Status : Successful - Wed Apr 23 15:14:25 2014
+Quartus II 64-Bit Version : 12.0 Build 178 05/31/2012 SJ Full Version
+Revision Name : Multiple_Cycles_CPU
+Top-level Entity Name : Multiple_Cycles_CPU
+Family : Cyclone II
+Device : EP2C70F896C6
+Timing Models : Final
+Total logic elements : 4,920 / 68,416 ( 7 % )
+    Total combinational functions : 3,744 / 68,416 ( 5 % )
+    Dedicated logic registers : 2,439 / 68,416 ( 4 % )
+Total registers : 2439
+Total pins : 571 / 622 ( 92 % )
+Total virtual pins : 0
+Total memory bits : 0 / 1,152,000 ( 0 % )
+Embedded Multiplier 9-bit elements : 0 / 300 ( 0 % )
+Total PLLs : 0 / 4 ( 0 % )

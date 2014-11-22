@@ -1,0 +1,6 @@
+module Memory(
+input [3:0] Mem_byte_wr_in,
+input [31:0] Mem_data_in,Mem_addr_in,
+input CLK,
+output [31:0] Mem_data_out
+);

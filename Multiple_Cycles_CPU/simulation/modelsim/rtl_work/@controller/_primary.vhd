@@ -1,0 +1,61 @@
+library verilog;
+use verilog.vl_types.all;
+entity Controller is
+    generic(
+        S0              : integer := 0;
+        S1              : integer := 1;
+        S2              : integer := 2;
+        S3              : integer := 3;
+        S4              : integer := 4;
+        S5              : integer := 5;
+        S6              : integer := 6;
+        S7              : integer := 7;
+        S8              : integer := 8;
+        S9              : integer := 9;
+        S10             : integer := 10;
+        S11             : integer := 11;
+        S12             : integer := 12;
+        S13             : integer := 13
+    );
+    port(
+        Clk             : in     vl_logic;
+        Overflow        : in     vl_logic;
+        IR              : in     vl_logic_vector(31 downto 0);
+        WBType          : in     vl_logic_vector(1 downto 0);
+        condition       : out    vl_logic_vector(2 downto 0);
+        ALU_SrcB        : out    vl_logic_vector(2 downto 0);
+        ALU_op          : out    vl_logic_vector(3 downto 0);
+        Rd_write_byte_en: out    vl_logic_vector(3 downto 0);
+        Mem_byte_write  : out    vl_logic_vector(3 downto 0);
+        RegDst          : out    vl_logic_vector(1 downto 0);
+        MemtoReg        : out    vl_logic_vector(1 downto 0);
+        PC_source       : out    vl_logic_vector(1 downto 0);
+        Shift_op        : out    vl_logic_vector(1 downto 0);
+        ALU_SrcA        : out    vl_logic;
+        Ex_top          : out    vl_logic;
+        Shift_amountSrc : out    vl_logic;
+        ALUShift_Sel    : out    vl_logic;
+        PC_write_cond   : out    vl_logic;
+        PC_write        : out    vl_logic;
+        IorD            : out    vl_logic;
+        IR_write_en     : out    vl_logic;
+        Addreg_write_en : out    vl_logic;
+        RegDt0          : out    vl_logic;
+        state_out       : out    vl_logic_vector(3 downto 0)
+    );
+    attribute mti_svvh_generic_type : integer;
+    attribute mti_svvh_generic_type of S0 : constant is 1;
+    attribute mti_svvh_generic_type of S1 : constant is 1;
+    attribute mti_svvh_generic_type of S2 : constant is 1;
+    attribute mti_svvh_generic_type of S3 : constant is 1;
+    attribute mti_svvh_generic_type of S4 : constant is 1;
+    attribute mti_svvh_generic_type of S5 : constant is 1;
+    attribute mti_svvh_generic_type of S6 : constant is 1;
+    attribute mti_svvh_generic_type of S7 : constant is 1;
+    attribute mti_svvh_generic_type of S8 : constant is 1;
+    attribute mti_svvh_generic_type of S9 : constant is 1;
+    attribute mti_svvh_generic_type of S10 : constant is 1;
+    attribute mti_svvh_generic_type of S11 : constant is 1;
+    attribute mti_svvh_generic_type of S12 : constant is 1;
+    attribute mti_svvh_generic_type of S13 : constant is 1;
+end Controller;

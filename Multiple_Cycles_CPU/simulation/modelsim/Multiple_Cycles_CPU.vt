@@ -1,0 +1,147 @@
+// Copyright (C) 1991-2012 Altera Corporation
+// Your use of Altera Corporation's design tools, logic functions 
+// and other software and tools, and its AMPP partner logic 
+// functions, and any output files from any of the foregoing 
+// (including device programming or simulation files), and any 
+// associated documentation or information are expressly subject 
+// to the terms and conditions of the Altera Program License 
+// Subscription Agreement, Altera MegaCore Function License 
+// Agreement, or other applicable license agreement, including, 
+// without limitation, that your use is for the sole purpose of 
+// programming logic devices manufactured by Altera and sold by 
+// Altera or its authorized distributors.  Please refer to the 
+// applicable agreement for further details.
+
+// *****************************************************************************
+// This file contains a Verilog test bench template that is freely editable to  
+// suit user's needs .Comments are provided in each section to help the user    
+// fill out necessary details.                                                  
+// *****************************************************************************
+// Generated on "04/16/2014 23:44:20"
+                                                                                
+// Verilog Test Bench template for design : Multiple_Cycles_CPU
+// 
+// Simulation tool : ModelSim-Altera (Verilog)
+// 
+
+`timescale 1 ns/ 1 ps
+module Multiple_Cycles_CPU_vlg_tst();
+// constants                                           
+// general purpose registers
+reg eachvec;
+// test vector input registers
+reg Clk;
+// wires                                               
+wire ALUShift_Sel;
+wire [31:0]  ALUShift_out;
+wire ALU_SrcA;
+wire [2:0]  ALU_SrcB;
+wire [3:0]  ALU_op;
+wire [31:0]  ALU_out;
+wire [31:0]  A_in;
+wire [31:0]  AddrReg_out;
+wire Addreg_write_en;
+wire [31:0]  B_in;
+wire Ex_top;
+wire [31:0]  IR_out;
+wire IR_write_en;
+wire IorD;
+wire Less;
+wire [31:0]  Mem_addr_in;
+wire [3:0]  Mem_byte_write;
+wire [31:0]  Mem_data_out;
+wire [31:0]  Mem_data_shift;
+wire [1:0]  MemtoReg;
+wire Overflow;
+wire [31:0]  PC_in;
+wire [31:0]  PC_out;
+wire [1:0]  PC_source;
+wire PC_write_cond;
+wire PC_write_en;
+wire [4:0]  Rd_addr;
+wire [31:0]  Rd_in;
+wire [3:0]  Rd_write_byte_en;
+wire [1:0]  RegDst;
+wire [31:0]  Reg_data_shift;
+wire [4:0]  Rs_addr;
+wire [31:0]  Rs_out;
+wire [4:0]  Rt_addr;
+wire [31:0]  Rt_out;
+wire Shift_amountSrc;
+wire [1:0]  Shift_op;
+wire [31:0]  Shift_out;
+wire Zero;
+wire [2:0]  condition;
+wire [3:0]  state;
+
+// assign statements (if any)                          
+Multiple_Cycles_CPU i1 (
+// port map - connection between master ports and signals/registers   
+	.ALUShift_Sel(ALUShift_Sel),
+	.ALUShift_out(ALUShift_out),
+	.ALU_SrcA(ALU_SrcA),
+	.ALU_SrcB(ALU_SrcB),
+	.ALU_op(ALU_op),
+	.ALU_out(ALU_out),
+	.A_in(A_in),
+	.AddrReg_out(AddrReg_out),
+	.Addreg_write_en(Addreg_write_en),
+	.B_in(B_in),
+	.Clk(Clk),
+	.Ex_top(Ex_top),
+	.IR_out(IR_out),
+	.IR_write_en(IR_write_en),
+	.IorD(IorD),
+	.Less(Less),
+	.Mem_addr_in(Mem_addr_in),
+	.Mem_byte_write(Mem_byte_write),
+	.Mem_data_out(Mem_data_out),
+	.Mem_data_shift(Mem_data_shift),
+	.MemtoReg(MemtoReg),
+	.Overflow(Overflow),
+	.PC_in(PC_in),
+	.PC_out(PC_out),
+	.PC_source(PC_source),
+	.PC_write_cond(PC_write_cond),
+	.PC_write_en(PC_write_en),
+	.Rd_addr(Rd_addr),
+	.Rd_in(Rd_in),
+	.Rd_write_byte_en(Rd_write_byte_en),
+	.RegDst(RegDst),
+	.Reg_data_shift(Reg_data_shift),
+	.Rs_addr(Rs_addr),
+	.Rs_out(Rs_out),
+	.Rt_addr(Rt_addr),
+	.Rt_out(Rt_out),
+	.Shift_amountSrc(Shift_amountSrc),
+	.Shift_op(Shift_op),
+	.Shift_out(Shift_out),
+	.Zero(Zero),
+	.condition(condition),
+	.state(state)
+);
+always
+begin
+	#10 Clk = ~Clk;
+end
+initial                                                
+begin                                                  
+// code that executes only once                        
+// insert code here --> begin                          
+Clk = 1'b0;                                                       
+// --> end                                             
+$display("Running testbench");                       
+end    
+   
+always                                                 
+// optional sensitivity list                           
+// @(event1 or event2 or .... eventn)                  
+begin                                                  
+// code executes for every event on sensitivity list   
+// insert code here --> begin                          
+                                                       
+@eachvec;                                              
+// --> end                                             
+end                                                    
+endmodule
+

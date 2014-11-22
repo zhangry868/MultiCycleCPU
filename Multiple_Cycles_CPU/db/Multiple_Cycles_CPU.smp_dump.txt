@@ -1,0 +1,20 @@
+
+State Machine - |Multiple_Cycles_CPU|Controller:controller|state
+Name state.S15 state.S14 state.S13 state.S12 state.S11 state.S10 state.S9 state.S8 state.S7 state.S6 state.S5 state.S4 state.S3 state.S2 state.S1 state.S0 state.10000 
+state.S0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+state.S1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 
+state.S2 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 0 
+state.S3 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 0 
+state.S4 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 0 
+state.S5 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 1 0 
+state.S6 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 0 
+state.S7 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 1 0 
+state.S8 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 0 
+state.S9 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 0 
+state.S10 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 0 
+state.S11 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 1 0 
+state.S12 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 1 0 
+state.S13 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 0 
+state.S14 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 
+state.S15 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 
+state.10000 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 

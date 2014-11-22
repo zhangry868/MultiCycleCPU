@@ -1,0 +1,525 @@
+m255
+K3
+13
+cModel Technology
+Z0 dF:\altera\Multiple_Cycles_CPU\simulation\modelsim
+vAdder
+I[ehlon]fZzQa7;zA;iP:`2
+VamY8AKQG=zKVR^0jfI;K73
+Z1 dF:\altera\Multiple_Cycles_CPU\simulation\modelsim
+Z2 w1397633085
+Z3 8F:/altera/Multiple_Cycles_CPU/ALU.v
+Z4 FF:/altera/Multiple_Cycles_CPU/ALU.v
+L0 11
+Z5 OV;L;10.0d;49
+r1
+31
+Z6 !s108 1370856313.148000
+Z7 !s107 F:/altera/Multiple_Cycles_CPU/ALU.v|
+Z8 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+F:/altera/Multiple_Cycles_CPU|F:/altera/Multiple_Cycles_CPU/ALU.v|
+Z9 o-vlog01compat -work work -O0
+Z10 !s92 -vlog01compat -work work +incdir+F:/altera/Multiple_Cycles_CPU -O0
+n@adder
+!s100 gi1<[:a^H0W^GlzX^Hkf41
+!s85 0
+!s101 -O0
+vAddrReg
+I[7==hfP]1ZR_]V<?HkkJc2
+VN?OYTe8QhDS6l:L8ab1H[3
+R1
+Z11 w1397638610
+Z12 8F:/altera/Multiple_Cycles_CPU/IRegister.v
+Z13 FF:/altera/Multiple_Cycles_CPU/IRegister.v
+L0 27
+R5
+r1
+31
+Z14 !s108 1370856310.132000
+Z15 !s107 F:/altera/Multiple_Cycles_CPU/IRegister.v|
+Z16 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+F:/altera/Multiple_Cycles_CPU|F:/altera/Multiple_Cycles_CPU/IRegister.v|
+R9
+R10
+n@addr@reg
+!s100 d8lcA_3k>7nfHISTeBFU^3
+!s85 0
+!s101 -O0
+vALU
+I91CFePOiS:44dAzYVl>7S2
+V8ZUamlV[G?a2mcnkP?[h=0
+R1
+R2
+R3
+R4
+L0 50
+R5
+r1
+31
+R6
+R7
+R8
+R9
+R10
+n@a@l@u
+!s100 56R:ldRja:P3ML_4K;E041
+!s85 0
+!s101 -O0
+vALU_Controller
+I?gMJKF3k;o9^gN56b<EVP3
+VY@zT>SaNS[k;mi7kFAlkf3
+R1
+R2
+R3
+R4
+L0 1
+R5
+r1
+31
+R6
+R7
+R8
+R9
+R10
+n@a@l@u_@controller
+!s100 aEA6HLh]^[h]_V8ODhBbC2
+!s85 0
+!s101 -O0
+vController
+IkBZ[oOBYo]AXI>QX3AVJ>1
+VJIdGk<gW0e>M5XMT09dWf3
+R1
+w1370856223
+8F:/altera/Multiple_Cycles_CPU/Controller.v
+FF:/altera/Multiple_Cycles_CPU/Controller.v
+L0 1
+R5
+r1
+31
+R9
+R10
+n@controller
+!s100 @YXlooS>4o7LCoD@hPBF]0
+!s85 0
+!s108 1370856312.492000
+!s107 F:/altera/Multiple_Cycles_CPU/Controller.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+F:/altera/Multiple_Cycles_CPU|F:/altera/Multiple_Cycles_CPU/Controller.v|
+!s101 -O0
+vExNumber
+I6VcO[Pho5EOO`T`8aCgUd1
+V5^9CMj_]6Z80lJOXR1cB10
+R1
+Z17 w1397633800
+Z18 8F:/altera/Multiple_Cycles_CPU/ExNumber.v
+Z19 FF:/altera/Multiple_Cycles_CPU/ExNumber.v
+L0 11
+R5
+r1
+31
+Z20 !s108 1370856317.961000
+Z21 !s107 F:/altera/Multiple_Cycles_CPU/ExNumber.v|
+Z22 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+F:/altera/Multiple_Cycles_CPU|F:/altera/Multiple_Cycles_CPU/ExNumber.v|
+R9
+R10
+n@ex@number
+!s100 =1VFJNU8]`b6Fj@5jQ0Y22
+!s85 0
+!s101 -O0
+vInstru_Control
+I@]d[EendZz:N^3hj=`RU^3
+Ve2_>7Yc?i<UG6SYkTQIZD0
+R1
+Z23 w1397636255
+Z24 8F:/altera/Multiple_Cycles_CPU/IControl.v
+Z25 FF:/altera/Multiple_Cycles_CPU/IControl.v
+L0 21
+R5
+r1
+31
+Z26 !s108 1370856316.258000
+Z27 !s107 F:/altera/Multiple_Cycles_CPU/IControl.v|
+Z28 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+F:/altera/Multiple_Cycles_CPU|F:/altera/Multiple_Cycles_CPU/IControl.v|
+R9
+R10
+n@instru_@control
+!s100 bQFaN8`mK`QgBVD=PP7Eb0
+!s85 0
+!s101 -O0
+vIRegister
+IJak9UMJkJd2XfZOE>A6ez3
+V06BMRoPK]?;QB?T@k:I0]0
+R1
+R11
+R12
+R13
+L0 1
+R5
+r1
+31
+R14
+R15
+R16
+R9
+R10
+n@i@register
+!s100 NlPo2=UO1Mm9IEFUBk^lW3
+!s85 0
+!s101 -O0
+vJudgeBit
+Id:R[6QeYTdg5UMn:f9ddD3
+VJQUFXZ1gSIeao:<z@X:F_0
+R1
+R2
+R3
+R4
+L0 34
+R5
+r1
+31
+R6
+R7
+R8
+R9
+R10
+n@judge@bit
+!s100 2_9>@:Ha3d>5TQGnKE2K00
+!s85 0
+!s101 -O0
+vMemory
+IV>`fP:5PJ4C5l4O1hOSD;0
+VG__zje?hkJ6a30ZOYC7ZH3
+R1
+w1370855875
+8F:/altera/Multiple_Cycles_CPU/Memory.v
+FF:/altera/Multiple_Cycles_CPU/Memory.v
+L0 42
+R5
+r1
+31
+R9
+R10
+n@memory
+!s100 O1`b=8kBe0McV_A[dAUWl2
+!s85 0
+!s108 1370856314.383000
+!s107 F:/altera/Multiple_Cycles_CPU/Memory.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+F:/altera/Multiple_Cycles_CPU|F:/altera/Multiple_Cycles_CPU/Memory.v|
+!s101 -O0
+vMemory_ShiftOutput
+I;LENKJFTaECg3mk_z5Z]L3
+VzF=N_ogCf]:gY?Q4^liCz0
+R1
+Z29 w1398181653
+Z30 8F:/altera/Multiple_Cycles_CPU/Memory_Shift.v
+Z31 FF:/altera/Multiple_Cycles_CPU/Memory_Shift.v
+L0 21
+R5
+r1
+31
+Z32 !s108 1370856315.352000
+Z33 !s107 F:/altera/Multiple_Cycles_CPU/Memory_Shift.v|
+Z34 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+F:/altera/Multiple_Cycles_CPU|F:/altera/Multiple_Cycles_CPU/Memory_Shift.v|
+R9
+R10
+n@memory_@shift@output
+!s100 BLKRzl0e>@D3dW5o6m]b;2
+!s85 0
+!s101 -O0
+vMIPS_Register
+I5OoehRP>8abFoBk[VX;KG0
+VL:?Zgc;^l[05bl7TfOlKm0
+R1
+w1399800884
+8F:/altera/Multiple_Cycles_CPU/MIPS_Register.v
+FF:/altera/Multiple_Cycles_CPU/MIPS_Register.v
+L0 23
+R5
+r1
+31
+R9
+R10
+n@m@i@p@s_@register
+!s100 hfP3>afnK0XH4>RfT<[[=3
+!s85 0
+!s108 1370856312.117000
+!s107 F:/altera/Multiple_Cycles_CPU/MIPS_Register.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+F:/altera/Multiple_Cycles_CPU|F:/altera/Multiple_Cycles_CPU/MIPS_Register.v|
+!s101 -O0
+vMIPS_Shifter
+Id03TiH3UTZW0ogh:WRiCI0
+V@Wl2X74:Dj[[Zij1=g]en1
+R1
+Z35 w1397489574
+Z36 8F:/altera/Multiple_Cycles_CPU/MIPS_Shifter.v
+Z37 FF:/altera/Multiple_Cycles_CPU/MIPS_Shifter.v
+L0 12
+R5
+r1
+31
+Z38 !s108 1370856311.398000
+Z39 !s107 F:/altera/Multiple_Cycles_CPU/MIPS_Shifter.v|
+Z40 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+F:/altera/Multiple_Cycles_CPU|F:/altera/Multiple_Cycles_CPU/MIPS_Shifter.v|
+R9
+R10
+n@m@i@p@s_@shifter
+!s100 WzV^@TEC<`g8d557]>CLd0
+!s85 0
+!s101 -O0
+vMultiple_Cycles_CPU
+Ik>GBX7hH5cG45H0F]Q2h=0
+VD=;c@^b;UcdfD]0Tn2QnK0
+R1
+Z41 w1370855188
+Z42 8F:/altera/Multiple_Cycles_CPU/Multiple_Cycles_CPU.v
+Z43 FF:/altera/Multiple_Cycles_CPU/Multiple_Cycles_CPU.v
+L0 21
+R5
+r1
+31
+Z44 !s108 1370856317.086000
+Z45 !s107 F:/altera/Multiple_Cycles_CPU/Multiple_Cycles_CPU.v|
+Z46 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+F:/altera/Multiple_Cycles_CPU|F:/altera/Multiple_Cycles_CPU/Multiple_Cycles_CPU.v|
+R9
+R10
+n@multiple_@cycles_@c@p@u
+!s100 CRk]UK74ZOa4Pfa2daGkJ1
+!s85 0
+!s101 -O0
+vMultiple_Cycles_CPU_vlg_tst
+!s100 AYH2_WOfGMIzFJca?RQVK2
+I95m5?c6l?^WEG<gLBV9]F0
+VZU[ZH8hA24=eFEb2cj34`1
+R1
+w1399802043
+8F:/altera/Multiple_Cycles_CPU/simulation/modelsim/Multiple_Cycles_CPU.vt
+FF:/altera/Multiple_Cycles_CPU/simulation/modelsim/Multiple_Cycles_CPU.vt
+L0 28
+R5
+r1
+!s85 0
+31
+!s108 1370856320.072000
+!s107 F:/altera/Multiple_Cycles_CPU/simulation/modelsim/Multiple_Cycles_CPU.vt|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+F:/altera/Multiple_Cycles_CPU/simulation/modelsim|F:/altera/Multiple_Cycles_CPU/simulation/modelsim/Multiple_Cycles_CPU.vt|
+!s101 -O0
+R9
+!s92 -vlog01compat -work work +incdir+F:/altera/Multiple_Cycles_CPU/simulation/modelsim -O0
+n@multiple_@cycles_@c@p@u_vlg_tst
+vMUX4_1
+IKe0Qz1zY9;o]]]==XlG7c1
+VTM91NzAdUHB6T2^<V8igR0
+R1
+R29
+R30
+R31
+L0 11
+R5
+r1
+31
+R32
+R33
+R34
+R9
+R10
+n@m@u@x4_1
+!s100 ;3z4i7C0cE_eAFJXfHe171
+!s85 0
+!s101 -O0
+vMux4_1
+IW@3jeW?f=bXFEL?nRfG4?2
+VCj]ib6`5EcGePH@Z9B@Z40
+R1
+R35
+R36
+R37
+L0 1
+R5
+r1
+31
+R38
+R39
+R40
+R9
+R10
+n@mux4_1
+!s100 4NKA4ZW@bzA5PXefmn;i`0
+!s85 0
+!s101 -O0
+vMUX4_1_32bit
+I51cznm3D01_z:_FS=cBDD2
+VlS:el2THUW00BS;>O9f>@2
+R1
+R41
+R42
+R43
+L0 11
+R5
+r1
+31
+R44
+R45
+R46
+R9
+R10
+n@m@u@x4_1_32bit
+!s100 g0gYd4CDI^TiIGS[hG[4X0
+!s85 0
+!s101 -O0
+vMUX4_1_5bit
+IOzWU=zoNL333<UY3AJVjo3
+VdKoKa0P5J05GY7R6zde5k1
+R1
+R41
+R42
+R43
+L0 1
+R5
+r1
+31
+R44
+R45
+R46
+R9
+R10
+n@m@u@x4_1_5bit
+!s100 <[olbPeKcHmc]OV02aF3]0
+!s85 0
+!s101 -O0
+vMUX4_1_IControl
+IzaP<=5^lWl2lGP1[eeY_<0
+VCLXI^Uj:XDO;e=V65V84V0
+R1
+R23
+R24
+R25
+L0 11
+R5
+r1
+31
+R26
+R27
+R28
+R9
+R10
+n@m@u@x4_1_@i@control
+!s100 24KE<4IU0H`[bC`<7PXWa2
+!s85 0
+!s101 -O0
+vMUX8_1
+I0iAX^:MSHEhJTIB4R3m3E2
+VFgSo8O_d^R]?kP<8jZX1G3
+R1
+R29
+R30
+R31
+L0 1
+R5
+r1
+31
+R32
+R33
+R34
+R9
+R10
+n@m@u@x8_1
+!s100 Zc?KO4[kOKBFNYH]`hKgZ1
+!s85 0
+!s101 -O0
+vMUX8_1_32
+Iz;c?]zULdiN9D_M@j]U1L2
+V?mPOPj5aDF@J5SN8FKcDG3
+R1
+R17
+R18
+R19
+L0 1
+R5
+r1
+31
+R20
+R21
+R22
+R9
+R10
+n@m@u@x8_1_32
+!s100 ^hzeI;4Ma2DRcF]bTQ[8;2
+!s85 0
+!s101 -O0
+vMUX8_1_ALU
+Ie3TZlHZ46XWM@MG[WbGak1
+VO2F<8]CikY[kZD@VX`PRz1
+R1
+R2
+R3
+R4
+L0 24
+R5
+r1
+31
+R6
+R7
+R8
+R9
+R10
+n@m@u@x8_1_@a@l@u
+!s100 5_olenFgVCl>z`LmJ:8U@0
+!s85 0
+!s101 -O0
+vMUX8_1_Single
+I_mM]bFm`a9dK]G4bizRjQ3
+Vm0=L1[3<OFDLl^=Ll;:=m0
+R1
+R23
+R24
+R25
+L0 1
+R5
+r1
+31
+R26
+R27
+R28
+R9
+R10
+n@m@u@x8_1_@single
+!s100 7OlIk2Z2c@aXal^MTW[oa3
+!s85 0
+!s101 -O0
+vPC
+I[MoL`Cz`2SPMW0]B0Ha`d3
+V0S?iz]k=fVe;d1^UPTZTW0
+R1
+R11
+R12
+R13
+L0 13
+R5
+r1
+31
+R14
+R15
+R16
+R9
+R10
+n@p@c
+!s100 >;[1jDEQhhTkdh60?57953
+!s85 0
+!s101 -O0
+vRegister_ShiftOutput
+IYJDo=Wo`oAS43S[Uf=VC?2
+V63>JzC=SS;fA9]Lf:3@PA1
+R1
+w1398186163
+8F:/altera/Multiple_Cycles_CPU/Register_Shift.v
+FF:/altera/Multiple_Cycles_CPU/Register_Shift.v
+L0 21
+R5
+r1
+31
+R9
+R10
+n@register_@shift@output
+!s100 QXzhDH:9ADPGIm=eZ<3kH3
+!s85 0
+!s108 1370856314.851000
+!s107 F:/altera/Multiple_Cycles_CPU/Register_Shift.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+F:/altera/Multiple_Cycles_CPU|F:/altera/Multiple_Cycles_CPU/Register_Shift.v|
+!s101 -O0

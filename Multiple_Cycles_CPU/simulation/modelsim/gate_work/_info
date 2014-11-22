@@ -1,0 +1,45 @@
+m255
+K3
+13
+cModel Technology
+Z0 dF:\altera\Multiple_Cycles_CPU\simulation\modelsim
+vMultiple_Cycles_CPU
+IWg?Cb862HS]SYSELK`Ocf2
+VY0ITz1FdWz5?B^ikGi1dz2
+Z1 dF:\altera\Multiple_Cycles_CPU\simulation\modelsim
+w1370874388
+8Multiple_Cycles_CPU_fast.vo
+FMultiple_Cycles_CPU_fast.vo
+L0 31
+Z2 OV;L;10.0d;49
+r1
+31
+Z3 o-vlog01compat -work work -O0
+n@multiple_@cycles_@c@p@u
+!s100 PF:`lW<OgGJR_kIWkfK>]1
+!s85 0
+!s108 1370874432.061000
+!s107 Multiple_Cycles_CPU_fast.vo|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+.|Multiple_Cycles_CPU_fast.vo|
+!s101 -O0
+!s92 -vlog01compat -work work +incdir+. -O0
+vMultiple_Cycles_CPU_vlg_tst
+!s100 AYH2_WOfGMIzFJca?RQVK2
+I95m5?c6l?^WEG<gLBV9]F0
+VZU[ZH8hA24=eFEb2cj34`1
+R1
+w1370856764
+8F:/altera/Multiple_Cycles_CPU/simulation/modelsim/Multiple_Cycles_CPU.vt
+FF:/altera/Multiple_Cycles_CPU/simulation/modelsim/Multiple_Cycles_CPU.vt
+L0 28
+R2
+r1
+!s85 0
+31
+!s108 1370874464.663000
+!s107 F:/altera/Multiple_Cycles_CPU/simulation/modelsim/Multiple_Cycles_CPU.vt|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+F:/altera/Multiple_Cycles_CPU/simulation/modelsim|F:/altera/Multiple_Cycles_CPU/simulation/modelsim/Multiple_Cycles_CPU.vt|
+!s101 -O0
+R3
+!s92 -vlog01compat -work work +incdir+F:/altera/Multiple_Cycles_CPU/simulation/modelsim -O0
+n@multiple_@cycles_@c@p@u_vlg_tst

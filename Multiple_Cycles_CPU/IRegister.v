@@ -1,0 +1,36 @@
+module IRegister(
+input [31:0] IR_in,
+output reg[31:0] IR_out,
+input Clk,IR_write_en
+);
+
+always@(negedge Clk)
+	if(IR_write_en)
+		IR_out <= IR_in;
+		
+endmodule
+
+module PC(
+input [31:0] PC_in,
+output reg[31:0] PC_out,
+input Clk,PC_write_en
+);
+
+initial PC_out = 32'b0;
+
+always@(negedge Clk)
+	if(PC_write_en)
+		PC_out <= PC_in;
+		
+endmodule
+
+module AddrReg(
+input [31:0] AddrReg_in,
+input AddrReg_write_en,Clk,
+output reg [31:0] AddrReg_out
+);
+always @(negedge Clk)
+	if(AddrReg_write_en)
+		AddrReg_out <= AddrReg_in;
+
+endmodule

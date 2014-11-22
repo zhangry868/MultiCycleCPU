@@ -1,0 +1,101 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow Model Setup 'Clk'
+Slack : -20.684
+TNS   : -137144.179
+
+Type  : Slow Model Setup 'Controller:controller|state.S2'
+Slack : -13.515
+TNS   : -17.209
+
+Type  : Slow Model Setup 'Controller:controller|state.S0'
+Slack : -5.660
+TNS   : -5.660
+
+Type  : Slow Model Setup 'Controller:controller|state.S7'
+Slack : -4.048
+TNS   : -47.576
+
+Type  : Slow Model Hold 'Controller:controller|state.S7'
+Slack : -3.345
+TNS   : -17.090
+
+Type  : Slow Model Hold 'Clk'
+Slack : -3.111
+TNS   : -17.289
+
+Type  : Slow Model Hold 'Controller:controller|state.S2'
+Slack : -0.801
+TNS   : -0.801
+
+Type  : Slow Model Hold 'Controller:controller|state.S0'
+Slack : 0.665
+TNS   : 0.000
+
+Type  : Slow Model Minimum Pulse Width 'Clk'
+Slack : -1.627
+TNS   : -9610.430
+
+Type  : Slow Model Minimum Pulse Width 'Controller:controller|state.S0'
+Slack : 0.500
+TNS   : 0.000
+
+Type  : Slow Model Minimum Pulse Width 'Controller:controller|state.S2'
+Slack : 0.500
+TNS   : 0.000
+
+Type  : Slow Model Minimum Pulse Width 'Controller:controller|state.S7'
+Slack : 0.500
+TNS   : 0.000
+
+Type  : Fast Model Setup 'Clk'
+Slack : -9.237
+TNS   : -58287.855
+
+Type  : Fast Model Setup 'Controller:controller|state.S2'
+Slack : -6.435
+TNS   : -7.873
+
+Type  : Fast Model Setup 'Controller:controller|state.S0'
+Slack : -2.570
+TNS   : -2.570
+
+Type  : Fast Model Setup 'Controller:controller|state.S7'
+Slack : -1.618
+TNS   : -17.714
+
+Type  : Fast Model Hold 'Controller:controller|state.S7'
+Slack : -1.903
+TNS   : -11.036
+
+Type  : Fast Model Hold 'Clk'
+Slack : -1.757
+TNS   : -49.462
+
+Type  : Fast Model Hold 'Controller:controller|state.S2'
+Slack : -0.359
+TNS   : -0.359
+
+Type  : Fast Model Hold 'Controller:controller|state.S0'
+Slack : 0.273
+TNS   : 0.000
+
+Type  : Fast Model Minimum Pulse Width 'Clk'
+Slack : -1.627
+TNS   : -9610.430
+
+Type  : Fast Model Minimum Pulse Width 'Controller:controller|state.S0'
+Slack : 0.500
+TNS   : 0.000
+
+Type  : Fast Model Minimum Pulse Width 'Controller:controller|state.S2'
+Slack : 0.500
+TNS   : 0.000
+
+Type  : Fast Model Minimum Pulse Width 'Controller:controller|state.S7'
+Slack : 0.500
+TNS   : 0.000
+
+------------------------------------------------------------
